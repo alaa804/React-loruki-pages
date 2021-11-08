@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# loruki pages with a beautful and simple animation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
