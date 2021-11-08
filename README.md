@@ -1,5 +1,7 @@
 #React Portfolio with beautful animations using the useContext hook and the typing effect also changing the mode color
 
+![Capture d’écran 2021-11-08 151818](https://user-images.githubusercontent.com/73104268/140768654-98f0f10a-2e1d-406e-9254-e75e704fae0b.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
