@@ -1,4 +1,4 @@
-#React Portfolio with beautful animations using the useContext hook and the typing effect 
+#React Portfolio with beautful animations using the useContext hook and the typing effect also changing the mode color
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
