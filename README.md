@@ -1,4 +1,4 @@
-# loruki pages with a beautful and simple animation
+#React Portfolio with beautful animations using the useContext hook and the typing effect 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
