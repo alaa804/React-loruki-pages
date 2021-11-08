@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&family=Source+Sans+Pro:ital,wght@1,200;1,400;1,600&family=Zen+Antique+Soft&display=swap");
+
+.c {
+  height: 100vh;
+  position: relative;
+}
+
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: #bdc3c7;
+  position: absolute;
+}
+.container {
+  padding: 50px;
+  display: flex;
+}
+
+.c-left {
+  flex: 1;
+}
+.c-right {
+  flex: 1;
+}
+.c-title {
+  font-size: 60px;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  color: #be93c5;
+}
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  width: 70%;
+}
+.c-icon {
+  width: 70px;
+  height: 70px;
+}
+.c-info-item img {
+  margin-right: 20px;
+}
+.c-desc {
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+}
+
+.c-right form {
+  margin-top: 30px;
+}
+
+.c-right input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+  font-style: 14px;
+  padding: 20px;
+}
+input:focus {
+  border: none;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  padding-left: 10px;
+  font-style: 14px;
+  padding: 20px;
+}
+
+button {
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #59b256;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: 0.5s ease-in-out;
+  font-family: "Dongle", sans-serif;
+  font-size: 50px;
+  position: relative;
+  z-index: 1;
+}
+button:focus {
+  outline: none;
+}
+button:before {
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #42fbf2;
+}
+
+button:hover {
+  color: #333;
+}
+button:hover:before {
+  /* box-shadow: inset 550px 0 0 0 #f9e506;
+  /* cursor: pointer; */
+  color: #000;
+  transition: 0.5s ease-in-out;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.msg {
+  text-align: center;
+  color: #45b649;
+  opacity: 0;
+  animation: fade 1.7s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+}
